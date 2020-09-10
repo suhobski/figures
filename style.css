@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+.figures {
+  padding: 100px;
+  background-color: #FF7F50;
+  font-size: 0;
+  text-align: center;
+}
+
+.figures__title{
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+  font-size: 70px;
+  color: #FFE4C4;
+}
+
+.figures__square{
+  display: inline-block;
+  margin: 100px;
+  width: 150px;
+  height:150px;
+  background-color: #DEDEDE;
+}
+
+.figures__rectangle{
+  display: inline-block;
+  margin: 100px;
+  width: 200px;
+  height: 150px;
+  background-color: #DEDEDE;
+}
+
+.figures__circle{
+  display: inline-block;
+  margin: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #DEDEDE;
+}
+
+.figures__oval {
+  display: inline-block;
+  margin: 100px;
+  width: 250px;
+  height: 150px;
+  background-color: #DEDEDE;
+  border-radius: 125px / 75px;
+}
+
+.triangle--up {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin: 100px;
+    border-left: 75px solid transparent;
+    border-right: 175px solid transparent;
+    border-bottom: 150px solid #DEDEDE;
+}
+
+.triangle--down {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 100px;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-top: 150px solid #DEDEDE;
+}
+
+.triangle--left {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 100px;
+  border-top: 75px solid transparent;
+  border-right: 150px solid #DEDEDE;
+  border-bottom: 75px solid transparent;
+}
+
+.triangle--right {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 100px;
+  border-top: 75px solid transparent;
+  border-left: 150px solid #DEDEDE;
+  border-bottom: 75px solid transparent;
+}
+
+.parallelogram {
+  display: inline-block;
+  margin: 100px;
+  width: 300px;
+  height: 150px;
+  background-color: #DEDEDE;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+}
+
+.trapezoid {
+  display: inline-block;
+  margin: 100px;
+	width: 200px;
+  border-bottom: 150px solid #DEDEDE;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+}
